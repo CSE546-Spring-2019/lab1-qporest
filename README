@@ -1,0 +1,9 @@
+Written by Gary Husar - husar.4
+
+To make the project run `make` inside of the directory.
+To run the project run `count <in file> <search string> <out file>`
+
+The algorithm for counting is to keep an array that keeps current "streaks".
+It only gets incremented if the current character is the same as the
+character in search_string[streak #].
+If first letter is the same, new streak is started by making a -1 into a 0.
